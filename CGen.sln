@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGen", "CGen\CGen.csproj", "{E0712545-64ED-45C9-890A-75F620E66585}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arebis.CodeGeneration", "Arebis.CodeGeneration\Arebis.CodeGeneration.csproj", "{145A1F88-5666-4CFD-BB74-8587D092D4BA}"
