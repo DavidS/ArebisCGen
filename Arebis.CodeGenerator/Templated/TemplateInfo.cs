@@ -25,7 +25,7 @@ namespace Arebis.CodeGenerator.Templated
         #region Instance fields
 
         // Main fields:
-        private GenerationHost host;
+        private IGenerationHost host;
         private FileInfo templatefileinfo;
         private MixedContentFile fileContent;
         private ICodeBuilder codeBuilder = null;
@@ -35,7 +35,7 @@ namespace Arebis.CodeGenerator.Templated
 
         #endregion Instance fields
 
-        public TemplateInfo(string filename, GenerationHost host)
+        public TemplateInfo(string filename, IGenerationHost host)
         {
             this.templatefileinfo = new FileInfo(filename);
             this.host = host;
@@ -46,9 +46,7 @@ namespace Arebis.CodeGenerator.Templated
             // Create compiled type:
             if (this.codeBuilder == null)
             {
-                this.host.Log("Parsing template: \"{0}\".", this.templatefileinfo.FullName);
-                this.fileContent = this.ReadAndParseFile();
-                this.ReadDirectives(this.fileContent);
+                Parse();
 
                 this.host.Log("Compiling template: \"{0}\".", this.templatefileinfo.FullName);
                 this.codeBuilder = this.CreateCodeBuilder(this.GetCodeTemplateDirective()["Language"] ?? GenerationLanguage.DefaultTemplateLanguage);
@@ -94,6 +92,16 @@ namespace Arebis.CodeGenerator.Templated
                 this.host.Log(ex.ToString());
                 throw new RuntimeException(ex);
             }
+        }
+
+        /// <summary>
+        /// Only parse, but do not act on this Template
+        /// </summary>
+        public void Parse()
+        {
+            this.host.Log("Parsing template: \"{0}\".", this.templatefileinfo.FullName);
+            this.fileContent = this.ReadAndParseFile();
+            this.ReadDirectives(this.fileContent);
         }
 
         /// <summary>

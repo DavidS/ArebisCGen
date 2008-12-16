@@ -53,125 +53,33 @@ namespace Arebis.CodeGenerator.Templated
             get { return this.code; }
         }
 
+        protected ClassName GetClassName(NameValueCollection ctdir)
+        {
+            // Retrieve class name information:
+            ClassName cnb = new ClassName(ctdir["ClassName"] ?? StringUtils.ToIdentifier(templateInfo.TemplateFileInfo.Name));
+            if (cnb.NameSpace == String.Empty)
+                cnb.NameSpace = GenerationLanguage.DefaultNameSpace;
+
+            return cnb;
+        }
+
         public bool Compile()
         {
             // Check precondition: templateInfo must be known:
             if (this.templateInfo == null)
                 throw new InvalidOperationException("TemplateInfo property must be set before calling Compile method.");
 
-            // Template substitution fields:
-            string ns;
-            string classname;
-            string baseclassname;
-            StringBuilder imports = new StringBuilder();
-            StringBuilder fields = new StringBuilder();
-            StringBuilder constructorparams = new StringBuilder();
-            StringBuilder fieldinits = new StringBuilder();
-            StringBuilder generatebody = new StringBuilder();
-            StringBuilder scripts = new StringBuilder();
-            string codeBehindFile = null;
-
             // Retrieve codeTemplate directive:
             NameValueCollection ctdir = templateInfo.GetCodeTemplateDirective();
-            // Retrieve class name information:
-            ClassName cnb = new ClassName(ctdir["ClassName"] ?? StringUtils.ToIdentifier(templateInfo.TemplateFileInfo.Name));
-            if (cnb.NameSpace == String.Empty)
-                cnb.NameSpace = GenerationLanguage.DefaultNameSpace;
-
-            // Retrieve base information:
-            ns = cnb.NameSpace;
-            classname = cnb.Name;
-            baseclassname = ctdir["Inherits"] ?? GenerationLanguage.DefaultBaseClass;
-            codeBehindFile = templateInfo.FindFile(ctdir["CodeFile"]);
-
-            foreach (NameValueCollection import in templateInfo.GetDirectives("Import"))
-            {
-                this.AppendImport(imports, import["Namespace"], import["Alias"]);
-            }
-
-            // Fill fields, fieldinits, constructorparams:
-            foreach (NameValueCollection param in templateInfo.GetDirectives("Parameter"))
-            {
-                string n = param["Name"];
-                string t = param["Type"] ?? "System.Object";
-
-                fields.Append("\t\t");
-                this.AppendField(fields, n, t);
-                fieldinits.Append("\t\t\t");
-                this.AppendFieldInitializer(fieldinits, n, t);
-                this.AppendConstructorParam(constructorparams, n, t);
-            }
-
-            // Fill generatebody:
-            bool writeLinePragma = Convert.ToBoolean(ctdir["LinePragmas"] ?? "True");
-            foreach (ContentPart part in templateInfo.FileContent.Parts)
-            {
-                // Check for TemplateBody or Scriptlet:
-                if (((TemplatePartTypes)part.Type != TemplatePartTypes.TemplateBody) && ((TemplatePartTypes)part.Type != TemplatePartTypes.Scriptlet))
-                    continue;
-
-                // Add line pragma begin:
-                if (writeLinePragma)
-                    this.AppendLinePragmaBegin(generatebody, part.File.Filename, part.StartLine);
-
-                // Generate:
-                if ((TemplatePartTypes)part.Type == TemplatePartTypes.TemplateBody)
-                {
-                    foreach (string line in LinesWithBreaks(part.Content))
-                    {
-                        string content = ToContent(this.LineToWriteCall(line));
-                        //generatebody.Append("\t\t\t");
-                        generatebody.Append(content);
-                        generatebody.AppendLine();
-                    }
-                }
-                else if ((TemplatePartTypes)part.Type == TemplatePartTypes.Scriptlet)
-                {
-                    foreach (string line in LinesWithBreaks(part.Content))
-                    {
-                        //generatebody.Append("\t\t\t");
-                        generatebody.Append(line);
-                    }
-                    generatebody.AppendLine();
-                }
-
-                // Add line pragma end:
-                if (writeLinePragma)
-                    this.AppendLinePragmaEnd(generatebody);
-            }
-
-            // Fill scripts:
-            foreach (ContentPart part in templateInfo.FileContent.FindPartsOfType(TemplatePartTypes.Script))
-            {
-                // Add line pragma begin:
-                if (writeLinePragma)
-                    this.AppendLinePragmaBegin(scripts, part.File.Filename, part.StartLine);
-
-                // Append script:
-                scripts.AppendLine(part.Content);
-                scripts.AppendLine();
-
-                // Add line pragma end:
-                if (writeLinePragma)
-                    this.AppendLinePragmaEnd(scripts);
-            }
-
-            // Build code:
-            this.code = GetCodeTemplate();
-            this.code = this.code.Replace("<%=templatefilename%>", templateInfo.TemplateFileInfo.FullName);
-            this.code = this.code.Replace("<%=imports%>", imports.ToString());
-            this.code = this.code.Replace("<%=namespace%>", ns);
-            this.code = this.code.Replace("<%=classname%>", classname);
-            this.code = this.code.Replace("<%=baseclassname%>", baseclassname);
-            this.code = this.code.Replace("<%=fields%>", fields.ToString());
-            this.code = this.code.Replace("<%=constructorparameters%>", constructorparams.ToString());
-            this.code = this.code.Replace("<%=fieldinitialisations%>", fieldinits.ToString());
-            this.code = this.code.Replace("<%=generatebody%>", generatebody.ToString());
-            this.code = this.code.Replace("<%=scripts%>", scripts.ToString());
 
             // Save code file:
             string codeFile = templateInfo.TemplateFileInfo.FullName + ".gen";
-            File.WriteAllText(codeFile, this.code);
+            File.WriteAllText(codeFile, CreateCode());
+
+            ClassName cnb = GetClassName(ctdir);
+            string ns = cnb.NameSpace;
+            string classname = cnb.Name;
+            string codeBehindFile = templateInfo.FindFile(ctdir["CodeFile"]);
 
             // Build assembly resolution path:
             List<string> referencepathlist = ((GenerationHost)templateInfo.Host).ReferencePath;
@@ -214,7 +122,7 @@ namespace Arebis.CodeGenerator.Templated
             }
 
             // Generate assembly filename:
-            string assemblyFile = 
+            string assemblyFile =
                 ctdir["AssemblyFile"] ??
                 Path.Combine(Path.GetTempPath(), StringUtils.ToIdentifier(templateInfo.TemplateFileInfo.FullName) + ".dll");
 
@@ -259,6 +167,113 @@ namespace Arebis.CodeGenerator.Templated
             }
         }
 
+        public string CreateCode()
+        {
+            if (this.code == null)
+            {
+                NameValueCollection ctdir = this.TemplateInfo.GetCodeTemplateDirective();
+
+                // Template substitution fields:
+                ClassName cnb = GetClassName(ctdir);
+                string ns = cnb.NameSpace;
+                string classname = cnb.Name;
+                string baseclassname = ctdir["Inherits"] ?? GenerationLanguage.DefaultBaseClass;
+
+                StringBuilder imports = new StringBuilder();
+                StringBuilder fields = new StringBuilder();
+                StringBuilder constructorparams = new StringBuilder();
+                StringBuilder fieldinits = new StringBuilder();
+                StringBuilder generatebody = new StringBuilder();
+                StringBuilder scripts = new StringBuilder();
+
+                foreach (NameValueCollection import in templateInfo.GetDirectives("Import"))
+                {
+                    this.AppendImport(imports, import["Namespace"], import["Alias"]);
+                }
+
+                // Fill fields, fieldinits, constructorparams:
+                foreach (NameValueCollection param in templateInfo.GetDirectives("Parameter"))
+                {
+                    string n = param["Name"];
+                    string t = param["Type"] ?? "System.Object";
+
+                    fields.Append("\t\t");
+                    this.AppendField(fields, n, t);
+                    fieldinits.Append("\t\t\t");
+                    this.AppendFieldInitializer(fieldinits, n, t);
+                    this.AppendConstructorParam(constructorparams, n, t);
+                }
+
+                // Fill generatebody:
+                bool writeLinePragma = Convert.ToBoolean(ctdir["LinePragmas"] ?? "True");
+                foreach (ContentPart part in templateInfo.FileContent.Parts)
+                {
+                    // Check for TemplateBody or Scriptlet:
+                    if (((TemplatePartTypes)part.Type != TemplatePartTypes.TemplateBody) && ((TemplatePartTypes)part.Type != TemplatePartTypes.Scriptlet))
+                        continue;
+
+                    // Add line pragma begin:
+                    if (writeLinePragma)
+                        this.AppendLinePragmaBegin(generatebody, part.File.Filename, part.StartLine);
+
+                    // Generate:
+                    if ((TemplatePartTypes)part.Type == TemplatePartTypes.TemplateBody)
+                    {
+                        foreach (string line in LinesWithBreaks(part.Content))
+                        {
+                            string content = ToContent(this.LineToWriteCall(line));
+                            //generatebody.Append("\t\t\t");
+                            generatebody.Append(content);
+                            generatebody.AppendLine();
+                        }
+                    }
+                    else if ((TemplatePartTypes)part.Type == TemplatePartTypes.Scriptlet)
+                    {
+                        foreach (string line in LinesWithBreaks(part.Content))
+                        {
+                            //generatebody.Append("\t\t\t");
+                            generatebody.Append(line);
+                        }
+                        generatebody.AppendLine();
+                    }
+
+                    // Add line pragma end:
+                    if (writeLinePragma)
+                        this.AppendLinePragmaEnd(generatebody);
+                }
+
+                // Fill scripts:
+                foreach (ContentPart part in templateInfo.FileContent.FindPartsOfType(TemplatePartTypes.Script))
+                {
+                    // Add line pragma begin:
+                    if (writeLinePragma)
+                        this.AppendLinePragmaBegin(scripts, part.File.Filename, part.StartLine);
+
+                    // Append script:
+                    scripts.AppendLine(part.Content);
+                    scripts.AppendLine();
+
+                    // Add line pragma end:
+                    if (writeLinePragma)
+                        this.AppendLinePragmaEnd(scripts);
+                }
+
+                // Build code:
+                this.code = GetCodeTemplate();
+                this.code = this.code.Replace("<%=templatefilename%>", templateInfo.TemplateFileInfo.FullName);
+                this.code = this.code.Replace("<%=imports%>", imports.ToString());
+                this.code = this.code.Replace("<%=namespace%>", ns);
+                this.code = this.code.Replace("<%=classname%>", classname);
+                this.code = this.code.Replace("<%=baseclassname%>", baseclassname);
+                this.code = this.code.Replace("<%=fields%>", fields.ToString());
+                this.code = this.code.Replace("<%=constructorparameters%>", constructorparams.ToString());
+                this.code = this.code.Replace("<%=fieldinitialisations%>", fieldinits.ToString());
+                this.code = this.code.Replace("<%=generatebody%>", generatebody.ToString());
+                this.code = this.code.Replace("<%=scripts%>", scripts.ToString());
+            }
+            return this.code;
+        }
+
         #endregion
 
         public void Dispose()
@@ -271,7 +286,8 @@ namespace Arebis.CodeGenerator.Templated
                     {
                         if (File.Exists(filename)) File.Delete(filename);
                     }
-                    catch (IOException) { 
+                    catch (IOException)
+                    {
                     }
                 }
                 this.filesToDelete = null;
