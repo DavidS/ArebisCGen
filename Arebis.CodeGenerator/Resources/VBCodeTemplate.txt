@@ -5,24 +5,24 @@ Option Strict <%=stricton%>
 
 Namespace <%=namespace%>
 
-	<Global.Arebis.CodeGeneration.TemplateInfo("<%=templatefilename%>")> _
-	Public NotInheritable Class <%=classname%>
-		Inherits Global.<%=baseclassname%>
+    <Global.Arebis.CodeGeneration.TemplateInfo("<%=templatefilename%>")> _
+    Public NotInheritable Class <%=classname%>
+        Inherits Global.<%=baseclassname%>
 
 <%=fields%>
 
-		Public Sub New(ByVal _host As Global.Arebis.CodeGeneration.IGenerationHost<%=constructorparameters%>)
-			MyBase.New(_host)
+        Public Sub New(ByVal _host As Global.Arebis.CodeGeneration.IGenerationHost<%=constructorparameters%>)
+            MyBase.New(_host)
 <%=fieldinitialisations%>
-		End Sub
-		
-		Public Overrides Sub Generate()
+        End Sub
+        
+        Public Overrides Sub Generate()
 <%=generatebody%>
-		End Sub
-		
+        End Sub
+        
 
 <%=scripts%>
 
-	End Class
+    End Class
 
 End Namespace

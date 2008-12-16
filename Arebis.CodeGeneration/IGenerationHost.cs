@@ -25,26 +25,26 @@ namespace Arebis.CodeGeneration
         /// </summary>
         NameValueCollection Settings { get; }
 
-		/// <summary>
-		/// Writes the string to the current output.
-		/// </summary>
-		void WriteOutput(string str);
+        /// <summary>
+        /// Writes the string to the current output.
+        /// </summary>
+        void WriteOutput(string str);
 
-		/// <summary>
-		/// The string representing a line break.
-		/// </summary>
-		string NewLineString { get; }
+        /// <summary>
+        /// The string representing a line break.
+        /// </summary>
+        string NewLineString { get; }
 
-		/// <summary>
-		/// Writes to the logfile.
-		/// </summary>
-		void Log(string fmt, params object[] args);
+        /// <summary>
+        /// Writes to the logfile.
+        /// </summary>
+        void Log(string fmt, params object[] args);
 
-		/// <summary>
-		/// Request the filewriter to write the given file with the given content.
-		/// </summary>
-		/// <param name="filename">Filename, absolute, or relative towards current running directory.</param>
-		/// <param name="content">Full content of the file.</param>
-		void WriteFile(string filename, string content);
+        /// <summary>
+        /// Request the filewriter to write the given file with the given content.
+        /// </summary>
+        /// <param name="filename">Filename, absolute, or relative towards current running directory.</param>
+        /// <param name="content">Full content of the file.</param>
+        void WriteFile(string filename, string content);
     }
 }

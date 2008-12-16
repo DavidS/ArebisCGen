@@ -5,11 +5,11 @@ using System.CodeDom.Compiler;
 
 namespace Arebis.CodeGenerator.Templated
 {
-	public interface ICodeBuilder : IDisposable
-	{
-		ITemplateInfo TemplateInfo { get; set; }
-		bool Compile();
-		Type CompiledType { get; }
-		IList<CompilerError> CompilerErrors { get; }
-	}
+    public interface ICodeBuilder : IDisposable
+    {
+        ITemplateInfo TemplateInfo { get; set; }
+        bool Compile();
+        Type CompiledType { get; }
+        IList<CompilerError> CompilerErrors { get; }
+    }
 }

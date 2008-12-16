@@ -5,8 +5,8 @@ using System.Collections.Specialized;
 
 namespace Arebis.CodeGeneration
 {
-	public interface IGenerationSetup
-	{
-		void Setup(NameValueCollection settings);
-	}
+    public interface IGenerationSetup
+    {
+        void Setup(NameValueCollection settings);
+    }
 }

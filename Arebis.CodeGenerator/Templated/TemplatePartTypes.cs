@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Arebis.CodeGenerator.Templated
 {
-	public enum TemplatePartTypes
-	{
-		TemplateBody = 0,
-		Comment,
-		Declaration,
-		Script,
-		Scriptlet,
-		EmbeddedBody,
-		IncludePragma
-	}
+    public enum TemplatePartTypes
+    {
+        TemplateBody = 0,
+        Comment,
+        Declaration,
+        Script,
+        Scriptlet,
+        EmbeddedBody,
+        IncludePragma
+    }
 }

@@ -65,25 +65,25 @@ namespace Arebis.CodeGenerator.Properties {
         ///
         ///namespace &lt;%=namespace%&gt;
         ///{
-        ///	[Arebis.CodeGeneration.TemplateInfo(@&quot;&lt;%=templatefilename%&gt;&quot;)]
-        ///	public sealed partial class &lt;%=classname%&gt; : &lt;%=baseclassname%&gt;
-        ///	{
+        ///    [Arebis.CodeGeneration.TemplateInfo(@&quot;&lt;%=templatefilename%&gt;&quot;)]
+        ///    public sealed partial class &lt;%=classname%&gt; : &lt;%=baseclassname%&gt;
+        ///    {
         ///&lt;%=fields%&gt;
         ///
-        ///		public &lt;%=classname%&gt;(Arebis.CodeGeneration.IGenerationHost _host&lt;%=constructorparameters%&gt;)
-        ///			: base(_host)
-        ///		{
+        ///        public &lt;%=classname%&gt;(Arebis.CodeGeneration.IGenerationHost _host&lt;%=constructorparameters%&gt;)
+        ///            : base(_host)
+        ///        {
         ///&lt;%=fieldinitialisations%&gt;
-        ///		}
-        ///		
-        ///		public override void Generate()
-        ///		{
+        ///        }
+        ///        
+        ///        public override void Generate()
+        ///        {
         ///&lt;%=generatebody%&gt;
-        ///		}
+        ///        }
         ///
         ///&lt;%=scripts%&gt;
         ///
-        ///	}
+        ///    }
         ///}.
         /// </summary>
         internal static string CSCodeTemplate {
@@ -100,20 +100,20 @@ namespace Arebis.CodeGenerator.Properties {
         ///
         ///Namespace &lt;%=namespace%&gt;
         ///
-        ///	&lt;Global.Arebis.CodeGeneration.TemplateInfo(&quot;&lt;%=templatefilename%&gt;&quot;)&gt; _
-        ///	Public NotInheritable Class &lt;%=classname%&gt;
-        ///		Inherits Global.&lt;%=baseclassname%&gt;
+        ///    &lt;Global.Arebis.CodeGeneration.TemplateInfo(&quot;&lt;%=templatefilename%&gt;&quot;)&gt; _
+        ///    Public NotInheritable Class &lt;%=classname%&gt;
+        ///        Inherits Global.&lt;%=baseclassname%&gt;
         ///
         ///&lt;%=fields%&gt;
         ///
-        ///		Public Sub New(ByVal _host As Global.Arebis.CodeGeneration.IGenerationHost&lt;%=constructorparameters%&gt;)
-        ///			MyBase.New(_host)
+        ///        Public Sub New(ByVal _host As Global.Arebis.CodeGeneration.IGenerationHost&lt;%=constructorparameters%&gt;)
+        ///            MyBase.New(_host)
         ///&lt;%=fieldinitialisations%&gt;
-        ///		End Sub
-        ///		
-        ///		Public Overrides Sub Generate()
+        ///        End Sub
+        ///        
+        ///        Public Overrides Sub Generate()
         ///&lt;%=generatebody%&gt;
-        ///		End Su [rest of string was truncated]&quot;;.
+        ///        End Su [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string VBCodeTemplate {
             get {
