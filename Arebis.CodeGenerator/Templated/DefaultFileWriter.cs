@@ -7,7 +7,10 @@ using Arebis.CodeGeneration;
 
 namespace Arebis.CodeGenerator.Templated
 {
+
+#if RELEASE
     [System.Diagnostics.DebuggerStepThrough]
+#endif
     public class DefaultFileWriter : BaseFileWriter
     {
         private bool overwriteReadonly = false;

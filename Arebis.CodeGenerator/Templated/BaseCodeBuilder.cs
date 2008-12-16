@@ -15,7 +15,10 @@ using Arebis.CodeGeneration;
 
 namespace Arebis.CodeGenerator.Templated
 {
+
+#if RELEASE
     [System.Diagnostics.DebuggerStepThrough]
+#endif
     public abstract class BaseCodeBuilder : ICodeBuilder
     {
         private static Regex RxLinesWithLinebreaks = new Regex("[^\\r\\n]*\\r?\\n?");

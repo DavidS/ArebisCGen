@@ -9,7 +9,10 @@ using System.Globalization;
 
 namespace Arebis.CodeGenerator.Templated
 {
+
+#if RELEASE
     [System.Diagnostics.DebuggerStepThrough]
+#endif
     public class GenerationHost : MarshalByRefObject, IGenerationHost, IDisposable
     {
         private Dictionary<string, TemplateInfo> templates;

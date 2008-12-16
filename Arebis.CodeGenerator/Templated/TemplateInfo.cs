@@ -7,12 +7,14 @@ using Arebis.Parsing.MultiContent;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Collections.Specialized;
-using System.Diagnostics;
 using System.CodeDom.Compiler;
 
 namespace Arebis.CodeGenerator.Templated
 {
+
+#if RELEASE
     [System.Diagnostics.DebuggerStepThrough]
+#endif
     public class TemplateInfo : ITemplateInfo, IDisposable
     {
         #region Static fields

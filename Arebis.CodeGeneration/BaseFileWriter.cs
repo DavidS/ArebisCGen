@@ -5,7 +5,10 @@ using Arebis.CodeGeneration;
 
 namespace Arebis.CodeGeneration
 {
+
+#if RELEASE
     [System.Diagnostics.DebuggerStepThrough]
+#endif
     public abstract class BaseFileWriter : IFileWriter
     {
         private IGenerationHost host;

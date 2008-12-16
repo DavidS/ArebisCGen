@@ -4,7 +4,10 @@ using System.Collections.Specialized;
 
 namespace Arebis.CodeGeneration
 {
+
+#if RELEASE
     [System.Diagnostics.DebuggerStepThrough]
+#endif
     public abstract class CodeTemplate : ContextBoundObject
     {
         private IGenerationHost _host;

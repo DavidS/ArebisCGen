@@ -8,7 +8,10 @@ namespace Arebis.CodeGeneration
     /// An IFileWriter implementation that does not actually write the file,
     /// but outputs the file to the console. USefull for debugging.
     /// </summary>
+
+#if RELEASE
     [System.Diagnostics.DebuggerStepThrough]
+#endif
     public class ConsoleFileWriter : BaseFileWriter
     {
         public override void WriteFile(string filename, string content)

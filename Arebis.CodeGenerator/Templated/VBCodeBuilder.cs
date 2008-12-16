@@ -7,7 +7,10 @@ using Arebis.CodeGeneration;
 
 namespace Arebis.CodeGenerator.Templated
 {
+
+#if RELEASE
     [System.Diagnostics.DebuggerStepThrough]
+#endif
     public class VBCodeBuilder : BaseCodeBuilder
     {
         protected override void AppendConstructorParam(StringBuilder constructorparams, string name, string type)
