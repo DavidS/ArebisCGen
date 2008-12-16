@@ -1,0 +1,63 @@
+{executable} - Template based code generator
+
+Syntax:
+
+  {executable} [settingsfile] [/setting1 value1] ... [/settingN valueN]
+   
+  settingsfile        XML file containing settings for the generation process
+  settingN            Individual setting name (overrides the settingsfile)
+  valueN              Value for setting settingN. Semi-colon can be used to
+                      provide multiple values.
+
+Notes:
+
+- The settings file 
+
+- Setting values provided on the 
+
+Specific settings:
+
+  template            Name of the (initial) template file to run.
+  
+  output              The output file to generate.
+  
+  sourcedir           Directory where to search template files.
+                      (Current directory by default.)
+  
+  targetdir           Directory where to write generated files to.
+                      (Current directory by default.)
+  
+  logfile             File to write logging output to.
+                      (Logging to console if not provided).
+  
+  overwritereadonly   "True" if read-only files are allowed to be
+                      overwritten.
+  
+  tabspaces           The number of spaces to replate tabs by.
+                      Value "0" means tabs are not replaced.
+                      
+  referencepath       Path in which to search for referenced assemblies.
+                      (Can occure more than once in a settings file.)
+  
+  filewriter          Classname, assemblyname of a class to intercept
+                      and handle writing of generated files. Each
+                      filewriter must implement the interface
+                      Arebis.CodeGeneration.IFileWriter.
+                      Multiple filewriters can be chained.
+
+Example of settings file:
+
+  <?xml version="1.0" encoding="utf-8" ?>
+  <settings>
+     <add name="template" value="DomainObjects.cst" />
+     <add name="targetdir" value="Source\DomainObjects" />
+     <add name="databaseschema" value="invoicing" />
+  </settings>
+
+Examples of syntax:
+
+  {executable} domainobjects.settings
+  
+  {executable} websitegen.settings /template index.htmlt
+
+{copyright}
