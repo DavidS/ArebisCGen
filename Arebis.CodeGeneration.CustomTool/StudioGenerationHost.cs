@@ -32,7 +32,7 @@ namespace Arebis.CodeGeneration.CustomTool
 
         public string NewLineString
         {
-            get { return "\n"; }
+            get { return Environment.NewLine; }
         }
 
         public void Log(string fmt, params object[] args)
