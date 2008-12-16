@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -33,3 +34,8 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 [assembly: AssemblyVersion("1.2.0.0")]
 [assembly: AssemblyFileVersion("1.2.0.0")]
+
+// The Common Language Specification (CLS) defines naming restrictions, data types,
+// and rules to which assemblies must conform if they are to be used across programming
+// languages. This assembly should be compatible even if it is probably not useful.
+[assembly: CLSCompliant(true)]
