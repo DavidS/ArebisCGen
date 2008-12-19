@@ -23,7 +23,7 @@ namespace Arebis.CodeGenerator.Templated
 
         protected override void AppendField(StringBuilder fields, string name, string type)
         {
-            fields.Append("Private ");
+            fields.Append("Protected ");
             fields.Append(name);
             fields.Append(" As ");
             fields.Append(type);
