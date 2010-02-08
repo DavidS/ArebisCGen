@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.50727</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{E0712545-64ED-45C9-890A-75F620E66585}</ProjectGuid>
     <OutputType>Exe</OutputType>
@@ -48,10 +48,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Arebis.CodeGeneration.VisualStudio\Arebis.CodeGeneration.VisualStudio.csproj">
-      <Project>{BEEF38A8-372B-454F-8F12-14B008F16216}</Project>
-      <Name>Arebis.CodeGeneration.VisualStudio</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Arebis.CodeGeneration\Arebis.CodeGeneration.csproj">
       <Project>{145A1F88-5666-4CFD-BB74-8587D092D4BA}</Project>
       <Name>Arebis.CodeGeneration</Name>
@@ -70,9 +66,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\HelpText.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="CGen Manual.doc" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
