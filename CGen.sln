@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arebis.CodeGeneration.Custo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arebis.CodeGeneration.MsBuild", "Arebis.CodeGeneration.MsBuild\Arebis.CodeGeneration.MsBuild.csproj", "{AA7B6263-AA69-45CB-A83F-224F4556C37E}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Arebis.Installer", "Arebis.Installer\Installer.vdproj", "{F0C25684-D92F-4C0F-9EE2-9CDB49D431F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{AA7B6263-AA69-45CB-A83F-224F4556C37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA7B6263-AA69-45CB-A83F-224F4556C37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA7B6263-AA69-45CB-A83F-224F4556C37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C25684-D92F-4C0F-9EE2-9CDB49D431F2}.Debug|Any CPU.ActiveCfg = Debug
+		{F0C25684-D92F-4C0F-9EE2-9CDB49D431F2}.Debug|Any CPU.Build.0 = Debug
+		{F0C25684-D92F-4C0F-9EE2-9CDB49D431F2}.Release|Any CPU.ActiveCfg = Release
+		{F0C25684-D92F-4C0F-9EE2-9CDB49D431F2}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
