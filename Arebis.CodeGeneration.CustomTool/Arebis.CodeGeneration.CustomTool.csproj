@@ -12,6 +12,8 @@
     <AssemblyName>Arebis.CodeGeneration.CustomTool</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Arebis.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -63,6 +65,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Arebis.snk" />
     <None Include="register.cmd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

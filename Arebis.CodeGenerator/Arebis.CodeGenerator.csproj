@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.50727</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{D2A451FB-809C-4F02-AA7D-5C0589495BE7}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -14,6 +14,8 @@
     <OldToolsVersion>2.0</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Arebis.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -82,6 +84,7 @@
     <None Include="Resources\VBCodeTemplate.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Arebis.snk" />
     <None Include="Resources\CSCodeTemplate.txt" />
     <None Include="Templated\_ClassDiagram.cd" />
   </ItemGroup>
