@@ -57,9 +57,13 @@ namespace Arebis.CodeGeneration.CustomTool
         {
             // Register for VS.NET 2008 (C#) 
             Register(new Version(9, 0), CSharpCategory);
-
             // Register for VS.NET 2008 (VB) 
             Register(new Version(9, 0), VBCategory);
+
+            // Register for VS.NET 2010 (C#) 
+            Register(new Version(10, 0), CSharpCategory);
+            // Register for VS.NET 2010 (VB) 
+            Register(new Version(10, 0), VBCategory);
         }
 
         [ComUnregisterFunction]
@@ -67,9 +71,13 @@ namespace Arebis.CodeGeneration.CustomTool
         {
             // Unregister for VS.NET 2008 (C#) 
             Unregister(new Version(9, 0), CSharpCategory);
-
             // Unregister for VS.NET 2008 (VB) 
             Unregister(new Version(9, 0), VBCategory);
+        
+            // Unregister for VS.NET 2010 (C#) 
+            Unregister(new Version(10, 0), CSharpCategory);
+            // Unregister for VS.NET 2010 (VB) 
+            Unregister(new Version(10, 0), VBCategory);
         }
 
         #endregion
