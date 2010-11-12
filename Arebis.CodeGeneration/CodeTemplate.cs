@@ -8,7 +8,7 @@ namespace Arebis.CodeGeneration
 #if RELEASE
     [System.Diagnostics.DebuggerStepThrough]
 #endif
-    public abstract class CodeTemplate : ContextBoundObject
+    public abstract class CodeTemplate
     {
         private IGenerationHost _host;
 
