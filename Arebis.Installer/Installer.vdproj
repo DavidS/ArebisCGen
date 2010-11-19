@@ -15,26 +15,32 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_099EBF3CF685C72FA9EBF40A9263F24F"
-        "OwnerKey" = "8:_F333531B740F78F8E0E059E4AF748E46"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_15D48F7B3A69A4BAD6FED6980B862171"
+        "MsmKey" = "8:_121A6EE30F8B1C944855A006C48F4903"
         "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_15D48F7B3A69A4BAD6FED6980B862171"
-        "OwnerKey" = "8:_7148C433B1CE42FC91971D0BF6EE0D9C"
+        "MsmKey" = "8:_121A6EE30F8B1C944855A006C48F4903"
+        "OwnerKey" = "8:_EA3626560E5FAD8229A81E288520A0BF"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_15D48F7B3A69A4BAD6FED6980B862171"
-        "OwnerKey" = "8:_9CB912EA05CACB7E3554B38FCE0F5A70"
+        "MsmKey" = "8:_121A6EE30F8B1C944855A006C48F4903"
+        "OwnerKey" = "8:_C8315BE4472C801E763556E2E569F9E0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_121A6EE30F8B1C944855A006C48F4903"
+        "OwnerKey" = "8:_70F64FA8B44A55C4DD6FC1362F7A992A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_158885251CFD352ED059E46DAC8B32F6"
+        "OwnerKey" = "8:_637BAF095986D22B77023B761D5EA173"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -45,14 +51,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_358F161310DC6A5D9B95156A60438540"
+        "MsmKey" = "8:_407B135A335565802E8DA7F4E4D59456"
+        "OwnerKey" = "8:_121A6EE30F8B1C944855A006C48F4903"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_407B135A335565802E8DA7F4E4D59456"
         "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_358F161310DC6A5D9B95156A60438540"
-        "OwnerKey" = "8:_C8315BE4472C801E763556E2E569F9E0"
+        "MsmKey" = "8:_407B135A335565802E8DA7F4E4D59456"
+        "OwnerKey" = "8:_70F64FA8B44A55C4DD6FC1362F7A992A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_44353590442CEBE8DDC6C3BA3EB50B78"
+        "OwnerKey" = "8:_70F64FA8B44A55C4DD6FC1362F7A992A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -75,6 +93,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_637BAF095986D22B77023B761D5EA173"
+        "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_637BAF095986D22B77023B761D5EA173"
+        "OwnerKey" = "8:_C8315BE4472C801E763556E2E569F9E0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_6C66355CB486F37D04B89D4AA8413ABC"
         "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
         "MsmSig" = "8:_UNDEFINED"
@@ -87,8 +117,38 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_70F64FA8B44A55C4DD6FC1362F7A992A"
+        "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_70F64FA8B44A55C4DD6FC1362F7A992A"
+        "OwnerKey" = "8:_C8315BE4472C801E763556E2E569F9E0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_7148C433B1CE42FC91971D0BF6EE0D9C"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_84C4EF21D48308E3413A02D13022E5AE"
+        "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_84C4EF21D48308E3413A02D13022E5AE"
+        "OwnerKey" = "8:_7148C433B1CE42FC91971D0BF6EE0D9C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_84C4EF21D48308E3413A02D13022E5AE"
+        "OwnerKey" = "8:_ACAA67B4C2B9A7DA89B7FCDE83C20BBE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -129,26 +189,20 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_9CB912EA05CACB7E3554B38FCE0F5A70"
+        "MsmKey" = "8:_A5EF007A666F8063CB43C7F69AC03EC7"
+        "OwnerKey" = "8:_121A6EE30F8B1C944855A006C48F4903"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_ACAA67B4C2B9A7DA89B7FCDE83C20BBE"
         "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9CB912EA05CACB7E3554B38FCE0F5A70"
+        "MsmKey" = "8:_ACAA67B4C2B9A7DA89B7FCDE83C20BBE"
         "OwnerKey" = "8:_7148C433B1CE42FC91971D0BF6EE0D9C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B07BAB1D8A52C75DDEC90E253DBDA2BB"
-        "OwnerKey" = "8:_D89DA326F3CB2DB584979B5CACAFD0BF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B22304D29C1D3355B83BD379ADD45935"
-        "OwnerKey" = "8:_358F161310DC6A5D9B95156A60438540"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -279,6 +333,24 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_CB5AE3218C4A9AC2E68F8D196F3939B2"
+        "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CB5AE3218C4A9AC2E68F8D196F3939B2"
+        "OwnerKey" = "8:_EA3626560E5FAD8229A81E288520A0BF"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CB5AE3218C4A9AC2E68F8D196F3939B2"
+        "OwnerKey" = "8:_C8315BE4472C801E763556E2E569F9E0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_CEEF49CA685BC559E683F6CFFDE58FC2"
         "OwnerKey" = "8:_8C90779EFFC82D42C617B95AB1455597"
         "MsmSig" = "8:_UNDEFINED"
@@ -315,48 +387,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_D41438B1D8C7CD2A6E85F33F15AD9943"
-        "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D41438B1D8C7CD2A6E85F33F15AD9943"
-        "OwnerKey" = "8:_EA3626560E5FAD8229A81E288520A0BF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D41438B1D8C7CD2A6E85F33F15AD9943"
-        "OwnerKey" = "8:_C8315BE4472C801E763556E2E569F9E0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D89DA326F3CB2DB584979B5CACAFD0BF"
-        "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D89DA326F3CB2DB584979B5CACAFD0BF"
-        "OwnerKey" = "8:_EA3626560E5FAD8229A81E288520A0BF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D89DA326F3CB2DB584979B5CACAFD0BF"
-        "OwnerKey" = "8:_C8315BE4472C801E763556E2E569F9E0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D89DA326F3CB2DB584979B5CACAFD0BF"
-        "OwnerKey" = "8:_358F161310DC6A5D9B95156A60438540"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_EA3626560E5FAD8229A81E288520A0BF"
         "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
         "MsmSig" = "8:_UNDEFINED"
@@ -364,18 +394,6 @@
         "Entry"
         {
         "MsmKey" = "8:_EA3626560E5FAD8229A81E288520A0BF"
-        "OwnerKey" = "8:_C8315BE4472C801E763556E2E569F9E0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F333531B740F78F8E0E059E4AF748E46"
-        "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F333531B740F78F8E0E059E4AF748E46"
         "OwnerKey" = "8:_C8315BE4472C801E763556E2E569F9E0"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -472,13 +490,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9CB912EA05CACB7E3554B38FCE0F5A70"
+        "OwnerKey" = "8:_ACAA67B4C2B9A7DA89B7FCDE83C20BBE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_15D48F7B3A69A4BAD6FED6980B862171"
+        "OwnerKey" = "8:_84C4EF21D48308E3413A02D13022E5AE"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -490,25 +508,31 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F333531B740F78F8E0E059E4AF748E46"
+        "OwnerKey" = "8:_637BAF095986D22B77023B761D5EA173"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D41438B1D8C7CD2A6E85F33F15AD9943"
+        "OwnerKey" = "8:_CB5AE3218C4A9AC2E68F8D196F3939B2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_358F161310DC6A5D9B95156A60438540"
+        "OwnerKey" = "8:_70F64FA8B44A55C4DD6FC1362F7A992A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D89DA326F3CB2DB584979B5CACAFD0BF"
+        "OwnerKey" = "8:_121A6EE30F8B1C944855A006C48F4903"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_407B135A335565802E8DA7F4E4D59456"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -608,7 +632,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "Version" = "8:3.5.30729"
+                "FrameworkVersion" = "8:3.5.30729"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=76617"
                 }
@@ -616,7 +640,38 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_099EBF3CF685C72FA9EBF40A9263F24F"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_121A6EE30F8B1C944855A006C48F4903"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_121A6EE30F8B1C944855A006C48F4903"
+                    {
+                    "Name" = "8:EnvDTE.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:EnvDTE.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_158885251CFD352ED059E46DAC8B32F6"
             {
             "SourcePath" = "8:vslangproj.olb"
             "TargetName" = "8:vslangproj.olb"
@@ -636,20 +691,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_15D48F7B3A69A4BAD6FED6980B862171"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_407B135A335565802E8DA7F4E4D59456"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Arebis.CodeGeneration, Version=1.2.0.1, Culture=neutral, PublicKeyToken=1012dfebee6c8abd, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_15D48F7B3A69A4BAD6FED6980B862171"
+                    "_407B135A335565802E8DA7F4E4D59456"
                     {
-                    "Name" = "8:Arebis.CodeGeneration.dll"
+                    "Name" = "8:stdole.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Arebis.CodeGeneration.dll"
+            "SourcePath" = "8:stdole.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
@@ -667,21 +722,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_358F161310DC6A5D9B95156A60438540"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_44353590442CEBE8DDC6C3BA3EB50B78"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:EnvDTE80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_358F161310DC6A5D9B95156A60438540"
-                    {
-                    "Name" = "8:EnvDTE80.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:EnvDTE80.dll"
-            "TargetName" = "8:"
+            "SourcePath" = "8:dte80.olb"
+            "TargetName" = "8:dte80.olb"
             "Tag" = "8:"
             "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
             "Condition" = "8:"
@@ -729,6 +773,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_637BAF095986D22B77023B761D5EA173"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:VSLangProj, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_637BAF095986D22B77023B761D5EA173"
+                    {
+                    "Name" = "8:VSLangProj.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:VSLangProj.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6C66355CB486F37D04B89D4AA8413ABC"
             {
             "AssemblyRegister" = "3:1"
@@ -757,6 +832,68 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_70F64FA8B44A55C4DD6FC1362F7A992A"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:EnvDTE80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_70F64FA8B44A55C4DD6FC1362F7A992A"
+                    {
+                    "Name" = "8:EnvDTE80.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:EnvDTE80.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_84C4EF21D48308E3413A02D13022E5AE"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Arebis.CodeGeneration, Version=1.2.0.1, Culture=neutral, PublicKeyToken=1012dfebee6c8abd, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_84C4EF21D48308E3413A02D13022E5AE"
+                    {
+                    "Name" = "8:Arebis.CodeGeneration.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Arebis.CodeGeneration.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -822,14 +959,34 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9CB912EA05CACB7E3554B38FCE0F5A70"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A5EF007A666F8063CB43C7F69AC03EC7"
+            {
+            "SourcePath" = "8:dte80a.olb"
+            "TargetName" = "8:dte80a.olb"
+            "Tag" = "8:"
+            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_ACAA67B4C2B9A7DA89B7FCDE83C20BBE"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Arebis.CodeGenerator, Version=1.2.0.1, Culture=neutral, PublicKeyToken=1012dfebee6c8abd, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_9CB912EA05CACB7E3554B38FCE0F5A70"
+                    "_ACAA67B4C2B9A7DA89B7FCDE83C20BBE"
                     {
                     "Name" = "8:Arebis.CodeGenerator.dll"
                     "Attributes" = "3:512"
@@ -850,46 +1007,6 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B07BAB1D8A52C75DDEC90E253DBDA2BB"
-            {
-            "SourcePath" = "8:dte80a.olb"
-            "TargetName" = "8:dte80a.olb"
-            "Tag" = "8:"
-            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B22304D29C1D3355B83BD379ADD45935"
-            {
-            "SourcePath" = "8:dte80.olb"
-            "TargetName" = "8:dte80.olb"
-            "Tag" = "8:"
-            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -1026,10 +1143,10 @@
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
+            "ReadOnly" = "11:TRUE"
             "Hidden" = "11:FALSE"
             "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
+            "Permanent" = "11:TRUE"
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
@@ -1051,6 +1168,37 @@
                     }
                 }
             "SourcePath" = "8:Microsoft.VisualStudio.TextTemplating.VSHost.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CB5AE3218C4A9AC2E68F8D196F3939B2"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.VisualStudio.VSHelp, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_CB5AE3218C4A9AC2E68F8D196F3939B2"
+                    {
+                    "Name" = "8:Microsoft.VisualStudio.VSHelp.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.VisualStudio.VSHelp.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
@@ -1099,68 +1247,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D41438B1D8C7CD2A6E85F33F15AD9943"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.VisualStudio.VSHelp, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_D41438B1D8C7CD2A6E85F33F15AD9943"
-                    {
-                    "Name" = "8:Microsoft.VisualStudio.VSHelp.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.VisualStudio.VSHelp.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D89DA326F3CB2DB584979B5CACAFD0BF"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_D89DA326F3CB2DB584979B5CACAFD0BF"
-                    {
-                    "Name" = "8:EnvDTE.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:EnvDTE.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EA3626560E5FAD8229A81E288520A0BF"
             {
             "AssemblyRegister" = "3:1"
@@ -1175,37 +1261,6 @@
                     }
                 }
             "SourcePath" = "8:Microsoft.VisualStudio.Shell.9.0.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F333531B740F78F8E0E059E4AF748E46"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:VSLangProj, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_F333531B740F78F8E0E059E4AF748E46"
-                    {
-                    "Name" = "8:VSLangProj.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:VSLangProj.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
@@ -1288,14 +1343,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Arebis Generation Tools"
-        "ProductCode" = "8:{B4C48D76-3961-4A77-8ED2-C2CC8BB6329C}"
-        "PackageCode" = "8:{F309C411-DF1E-4B20-938D-5950EA573015}"
+        "ProductCode" = "8:{9488F48D-2841-4AAC-8705-6F78C9121B4C}"
+        "PackageCode" = "8:{8B28AAF5-48D3-4961-9B76-EF8D39BC8863}"
         "UpgradeCode" = "8:{2827C332-87FB-45D2-AB53-7C56AA9D23C5}"
+        "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.5"
+        "ProductVersion" = "8:1.0.6"
         "Manufacturer" = "8:AREBIS"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -1486,18 +1542,18 @@
                                             "Transitive" = "11:FALSE"
                                                 "Keys"
                                                 {
-                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_FB27483055F84A7FBB7B9B6BBE61EEF5"
+                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_4504DC588C294FA0A23E4DFABB642EC2"
                                                     {
-                                                    "Name" = "8:{FAE04EC1-301F-11D3-BF4B-00C04F79EFBC}"
+                                                    "Name" = "8:MSBuild"
                                                     "Condition" = "8:"
                                                     "AlwaysCreate" = "11:FALSE"
                                                     "DeleteAtUninstall" = "11:FALSE"
                                                     "Transitive" = "11:FALSE"
                                                         "Keys"
                                                         {
-                                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_E903FC3889E049B882F2526C5E1391C0"
+                                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_409080C2DEA34003A47B76F116FFB1D3"
                                                             {
-                                                            "Name" = "8:Arebis Template Processor"
+                                                            "Name" = "8:SafeImports"
                                                             "Condition" = "8:"
                                                             "AlwaysCreate" = "11:FALSE"
                                                             "DeleteAtUninstall" = "11:FALSE"
@@ -1507,30 +1563,102 @@
                                                                 }
                                                                 "Values"
                                                                 {
-                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_0BCC0B81E43B48C5B3B5D0E483FD887D"
+                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_81C60F2455984EDE9A89348894635AD1"
                                                                     {
-                                                                    "Name" = "8:GeneratesDesignTimeSource"
-                                                                    "Condition" = "8:"
-                                                                    "Transitive" = "11:FALSE"
-                                                                    "ValueTypes" = "3:3"
-                                                                    "Value" = "3:1"
-                                                                    }
-                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_377B8A1FDDAF41E099ED15B67EEA983A"
-                                                                    {
-                                                                    "Name" = "8:CLSID"
+                                                                    "Name" = "8:Arebis"
                                                                     "Condition" = "8:"
                                                                     "Transitive" = "11:FALSE"
                                                                     "ValueTypes" = "3:1"
-                                                                    "Value" = "8:{216D97DB-F5B3-4b14-B3A9-F9C9CEA95339}"
+                                                                    "Value" = "8:[TARGETDIR]\\ArebisGenTask.targets"
                                                                     }
-                                                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_D43664B9E6514CEB87946238DF35B643"
+                                                                }
+                                                            }
+                                                        }
+                                                        "Values"
+                                                        {
+                                                        }
+                                                    }
+                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_8AAC80A754E74F9DBCF0DC932088710A"
+                                                    {
+                                                    "Name" = "8:Generators"
+                                                    "Condition" = "8:"
+                                                    "AlwaysCreate" = "11:FALSE"
+                                                    "DeleteAtUninstall" = "11:FALSE"
+                                                    "Transitive" = "11:FALSE"
+                                                        "Keys"
+                                                        {
+                                                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_8F1C7C4372A54630B8FA144D3260324F"
+                                                            {
+                                                            "Name" = "8:{FAE04EC1-301F-11D3-BF4B-00C04F79EFBC}"
+                                                            "Condition" = "8:"
+                                                            "AlwaysCreate" = "11:FALSE"
+                                                            "DeleteAtUninstall" = "11:FALSE"
+                                                            "Transitive" = "11:FALSE"
+                                                                "Keys"
+                                                                {
+                                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_87F23A9750604851B45F4DCC79A5BA28"
                                                                     {
-                                                                    "Name" = "8:"
+                                                                    "Name" = "8:.cst"
                                                                     "Condition" = "8:"
+                                                                    "AlwaysCreate" = "11:FALSE"
+                                                                    "DeleteAtUninstall" = "11:FALSE"
                                                                     "Transitive" = "11:FALSE"
-                                                                    "ValueTypes" = "3:1"
-                                                                    "Value" = "8:Generates the actual Generate() method behind an Arebis template"
+                                                                        "Keys"
+                                                                        {
+                                                                        }
+                                                                        "Values"
+                                                                        {
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_AD448A4DEA1D470FB4987B2B209E9C66"
+                                                                            {
+                                                                            "Name" = "8:(Default)"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:Arebis Template Processor"
+                                                                            }
+                                                                        }
                                                                     }
+                                                                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_E903FC3889E049B882F2526C5E1391C0"
+                                                                    {
+                                                                    "Name" = "8:Arebis Template Processor"
+                                                                    "Condition" = "8:"
+                                                                    "AlwaysCreate" = "11:FALSE"
+                                                                    "DeleteAtUninstall" = "11:FALSE"
+                                                                    "Transitive" = "11:FALSE"
+                                                                        "Keys"
+                                                                        {
+                                                                        }
+                                                                        "Values"
+                                                                        {
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_0BCC0B81E43B48C5B3B5D0E483FD887D"
+                                                                            {
+                                                                            "Name" = "8:GeneratesDesignTimeSource"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:3"
+                                                                            "Value" = "3:1"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_377B8A1FDDAF41E099ED15B67EEA983A"
+                                                                            {
+                                                                            "Name" = "8:CLSID"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:{216D97DB-F5B3-4b14-B3A9-F9C9CEA95339}"
+                                                                            }
+                                                                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_D43664B9E6514CEB87946238DF35B643"
+                                                                            {
+                                                                            "Name" = "8:"
+                                                                            "Condition" = "8:"
+                                                                            "Transitive" = "11:FALSE"
+                                                                            "ValueTypes" = "3:1"
+                                                                            "Value" = "8:Generates the actual Generate() method behind an Arebis template"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                                "Values"
+                                                                {
                                                                 }
                                                             }
                                                         }
