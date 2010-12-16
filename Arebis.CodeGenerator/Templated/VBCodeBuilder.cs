@@ -21,6 +21,12 @@ namespace Arebis.CodeGenerator.Templated
             constructorparams.Append(type);
         }
 
+        protected override void AppendConstructorArgument(StringBuilder constructorargs, string name)
+        {
+            constructorargs.Append(", ByVal ");
+            constructorargs.Append(name);
+        }
+
         protected override void AppendField(StringBuilder fields, string name, string type)
         {
             fields.Append("Protected ");

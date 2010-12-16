@@ -7,18 +7,23 @@ namespace <%=namespace%>
     {
 <%=fields%>
 
+        public static void Call(Arebis.CodeGeneration.IGenerationHost _host<%=constructorparameters%>)
+        {
+            if (_host == null) { throw new global::System.ArgumentNullException("_host"); }
+
+            _host.CallTemplate("<%=templatename%>"<%=constructorargs%>);
+        }
+
         public <%=classname%>(Arebis.CodeGeneration.IGenerationHost _host<%=constructorparameters%>)
             : base(_host)
         {
 <%=fieldinitialisations%>
         }
-        
+
         public override void Generate()
         {
 <%=generatebody%>
         }
-
 <%=scripts%>
-
     }
 }

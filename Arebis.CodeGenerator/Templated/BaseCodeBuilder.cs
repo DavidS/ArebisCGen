@@ -182,6 +182,7 @@ namespace Arebis.CodeGenerator.Templated
                 StringBuilder imports = new StringBuilder();
                 StringBuilder fields = new StringBuilder();
                 StringBuilder constructorparams = new StringBuilder();
+                StringBuilder constructorargs = new StringBuilder();
                 StringBuilder fieldinits = new StringBuilder();
                 StringBuilder generatebody = new StringBuilder();
                 StringBuilder scripts = new StringBuilder();
@@ -202,6 +203,7 @@ namespace Arebis.CodeGenerator.Templated
                     fieldinits.Append("\t\t\t");
                     this.AppendFieldInitializer(fieldinits, n, t);
                     this.AppendConstructorParam(constructorparams, n, t);
+                    this.AppendConstructorArgument(constructorargs, n);
                 }
 
                 // Fill generatebody:
@@ -260,6 +262,7 @@ namespace Arebis.CodeGenerator.Templated
 
                 // Build code:
                 this.code = GetCodeTemplate();
+                this.code = this.code.Replace("<%=templatename%>", ctdir["Name"]);
                 this.code = this.code.Replace("<%=templatefilename%>", templateInfo.TemplateFileInfo.FullName);
                 this.code = this.code.Replace("<%=imports%>", imports.ToString());
                 this.code = this.code.Replace("<%=namespace%>", ns);
@@ -267,9 +270,14 @@ namespace Arebis.CodeGenerator.Templated
                 this.code = this.code.Replace("<%=baseclassname%>", baseclassname);
                 this.code = this.code.Replace("<%=fields%>", fields.ToString());
                 this.code = this.code.Replace("<%=constructorparameters%>", constructorparams.ToString());
+                this.code = this.code.Replace("<%=constructorargs%>", constructorargs.ToString());
                 this.code = this.code.Replace("<%=fieldinitialisations%>", fieldinits.ToString());
                 this.code = this.code.Replace("<%=generatebody%>", generatebody.ToString());
                 this.code = this.code.Replace("<%=scripts%>", scripts.ToString());
+                // normalize line endings
+                this.code = this.code.Replace("\r\n", "\n");
+                this.code = this.code.Replace("\r", "\n");
+                this.code = this.code.Replace("\n", Environment.NewLine);
             }
             return this.code;
         }
@@ -303,6 +311,8 @@ namespace Arebis.CodeGenerator.Templated
         protected abstract void AppendFieldInitializer(StringBuilder fieldinits, string name, string type);
 
         protected abstract void AppendConstructorParam(StringBuilder constructorparams, string name, string type);
+
+        protected abstract void AppendConstructorArgument(StringBuilder constructorargs, string name);
 
         protected abstract void AppendLinePragmaBegin(StringBuilder code, string filename, int line);
 

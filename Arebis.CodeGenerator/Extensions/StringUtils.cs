@@ -14,6 +14,8 @@ namespace Arebis.Utils
         /// </summary>
         public static int[] AllIndexesOf(string value, string searchedString, StringComparison comparisonType)
         {
+            if (String.IsNullOrEmpty(searchedString)) { throw new ArgumentOutOfRangeException("cannot search for empty strings"); }
+            
             List<int> indexes = new List<int>();
             int pos = 0;
             while (true)
