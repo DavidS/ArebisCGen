@@ -67,7 +67,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Arebis.snk" />
-    <None Include="ArebisGenTask.targets" />
+    <None Include="ArebisGenTask.targets">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
