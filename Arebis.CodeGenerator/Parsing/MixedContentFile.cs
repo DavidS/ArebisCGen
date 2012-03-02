@@ -165,7 +165,7 @@ namespace Arebis.Parsing.MultiContent
         private static int[] GetLineStartPositions(string text)
         {
             List<int> result = new List<int>();
-            foreach (Match match in new Regex(".*(\\r\\n?|.$)").Matches(text))
+            foreach (Match match in new Regex(".*(\\r|\\r\\n|\\n|.$)").Matches(text))
             {
                 result.Add(match.Index);
             }
