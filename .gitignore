@@ -1,5 +1,7 @@
 bin
 obj
 *.suo
+*.user
+*.nupkg
 /Arebis.Installer/Debug
 /Arebis.Installer/Release
