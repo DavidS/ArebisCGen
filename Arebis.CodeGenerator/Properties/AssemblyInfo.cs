@@ -7,11 +7,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Arebis.CodeGenerator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("CodeGenerator classes")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("AREBIS")]
 [assembly: AssemblyProduct("Arebis.CodeGenerator")]
-[assembly: AssemblyCopyright("Copyright ©  2007")]
+[assembly: AssemblyCopyright("Copyright © 2007 AREBIS")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

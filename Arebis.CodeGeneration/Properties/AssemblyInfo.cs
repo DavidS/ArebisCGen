@@ -7,9 +7,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Arebis.CodeGeneration")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("CodeGeneration classes")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("AREBIS")]
 [assembly: AssemblyProduct("Arebis.CodeGeneration")]
 [assembly: AssemblyCopyright("Copyright ©  2007")]
 [assembly: AssemblyTrademark("")]

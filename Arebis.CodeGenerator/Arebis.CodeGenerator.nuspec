@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://www.codeproject.com/info/cpol10.aspx</licenseUrl>
+    <projectUrl>http://www.codeproject.com/Articles/21162/Template-Based-Code-Generator</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>First packaging</releaseNotes>
+    <copyright>Copyright 2007 Arebis</copyright>
+  </metadata>
+  <files>
+    <file src="bin\Release\Arebis.CodeGeneration.dll" target="lib\net35" />
+    <file src="bin\Release\Arebis.CodeGeneration.xml" target="lib\net35" />
+  </files>
+</package>
