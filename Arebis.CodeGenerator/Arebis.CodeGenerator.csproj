@@ -80,7 +80,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Arebis.CodeGenerator.nuspec" />
+    <None Include="Arebis.CodeGenerator.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Resources\VBCodeTemplate.txt" />
   </ItemGroup>
   <ItemGroup>

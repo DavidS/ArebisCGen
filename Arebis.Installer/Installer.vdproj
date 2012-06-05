@@ -117,24 +117,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_6CCDE1C7EDBDC0460E75F0E486894A5A"
-        "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6CCDE1C7EDBDC0460E75F0E486894A5A"
-        "OwnerKey" = "8:_7148C433B1CE42FC91971D0BF6EE0D9C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6CCDE1C7EDBDC0460E75F0E486894A5A"
-        "OwnerKey" = "8:_AF65C4B198104B3D5B35C9CE43FE6125"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_70F64FA8B44A55C4DD6FC1362F7A992A"
         "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
         "MsmSig" = "8:_UNDEFINED"
@@ -189,20 +171,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A5EF007A666F8063CB43C7F69AC03EC7"
-        "OwnerKey" = "8:_121A6EE30F8B1C944855A006C48F4903"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_AF65C4B198104B3D5B35C9CE43FE6125"
+        "MsmKey" = "8:_97958924B1D4BA6A04AB2786C09C4297"
         "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_AF65C4B198104B3D5B35C9CE43FE6125"
+        "MsmKey" = "8:_97958924B1D4BA6A04AB2786C09C4297"
         "OwnerKey" = "8:_7148C433B1CE42FC91971D0BF6EE0D9C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_97958924B1D4BA6A04AB2786C09C4297"
+        "OwnerKey" = "8:_B68E534A9F61E2F6210C8C6C1779517B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A5EF007A666F8063CB43C7F69AC03EC7"
+        "OwnerKey" = "8:_121A6EE30F8B1C944855A006C48F4903"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -215,6 +203,18 @@
         {
         "MsmKey" = "8:_B26FEA214121D58773D931CA3B30D844"
         "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B68E534A9F61E2F6210C8C6C1779517B"
+        "OwnerKey" = "8:_3205FCCFE1F64184BE6903D4AE568142"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B68E534A9F61E2F6210C8C6C1779517B"
+        "OwnerKey" = "8:_7148C433B1CE42FC91971D0BF6EE0D9C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -490,13 +490,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AF65C4B198104B3D5B35C9CE43FE6125"
+        "OwnerKey" = "8:_B68E534A9F61E2F6210C8C6C1779517B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6CCDE1C7EDBDC0460E75F0E486894A5A"
+        "OwnerKey" = "8:_97958924B1D4BA6A04AB2786C09C4297"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -835,37 +835,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6CCDE1C7EDBDC0460E75F0E486894A5A"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Arebis.CodeGeneration, Version=1.2.0.1, Culture=neutral, PublicKeyToken=1012dfebee6c8abd, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_6CCDE1C7EDBDC0460E75F0E486894A5A"
-                    {
-                    "Name" = "8:Arebis.CodeGeneration.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Arebis.CodeGeneration.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_70F64FA8B44A55C4DD6FC1362F7A992A"
             {
             "AssemblyRegister" = "3:1"
@@ -959,6 +928,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_97958924B1D4BA6A04AB2786C09C4297"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Arebis.CodeGeneration, Version=1.2.0.1, Culture=neutral, PublicKeyToken=1012dfebee6c8abd, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_97958924B1D4BA6A04AB2786C09C4297"
+                    {
+                    "Name" = "8:Arebis.CodeGeneration.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Arebis.CodeGeneration.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A5EF007A666F8063CB43C7F69AC03EC7"
             {
             "SourcePath" = "8:dte80a.olb"
@@ -976,37 +976,6 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AF65C4B198104B3D5B35C9CE43FE6125"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Arebis.CodeGenerator, Version=1.2.0.1, Culture=neutral, PublicKeyToken=1012dfebee6c8abd, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_AF65C4B198104B3D5B35C9CE43FE6125"
-                    {
-                    "Name" = "8:Arebis.CodeGenerator.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Arebis.CodeGenerator.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -1038,6 +1007,37 @@
             "PackageAs" = "3:1"
             "Register" = "3:1"
             "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B68E534A9F61E2F6210C8C6C1779517B"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Arebis.CodeGenerator, Version=1.2.0.1, Culture=neutral, PublicKeyToken=1012dfebee6c8abd, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B68E534A9F61E2F6210C8C6C1779517B"
+                    {
+                    "Name" = "8:Arebis.CodeGenerator.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Arebis.CodeGenerator.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -1343,15 +1343,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Arebis Generation Tools"
-        "ProductCode" = "8:{EBD4B7E7-B61B-46E4-8E89-04A54F565B95}"
-        "PackageCode" = "8:{7F12AA4F-9DC6-4741-AC18-E2F7C9730044}"
+        "ProductCode" = "8:{0C1095E4-67A9-4DCA-8237-D0F26A4ADD6C}"
+        "PackageCode" = "8:{AC1B2C75-2F2D-47F8-8D1F-5AAF8F3E43F5}"
         "UpgradeCode" = "8:{2827C332-87FB-45D2-AB53-7C56AA9D23C5}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.11"
+        "ProductVersion" = "8:1.2.0"
         "Manufacturer" = "8:AREBIS"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -2225,7 +2225,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_3205FCCFE1F64184BE6903D4AE568142"
             {
-            "SourcePath" = "8:..\\Arebis.CodeGeneration.CustomTool\\obj\\Release\\Arebis.CodeGeneration.CustomTool.dll"
+            "SourcePath" = "8:..\\Arebis.CodeGeneration.CustomTool\\obj\\Debug\\Arebis.CodeGeneration.CustomTool.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
@@ -2253,7 +2253,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7148C433B1CE42FC91971D0BF6EE0D9C"
             {
-            "SourcePath" = "8:..\\Arebis.CodeGeneration.MsBuild\\obj\\Release\\Arebis.CodeGeneration.MsBuild.dll"
+            "SourcePath" = "8:..\\Arebis.CodeGeneration.MsBuild\\obj\\Debug\\Arebis.CodeGeneration.MsBuild.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_7299F04B88974B1AAA383844014407FC"
