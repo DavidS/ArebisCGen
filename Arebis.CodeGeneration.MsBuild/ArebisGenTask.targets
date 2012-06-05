@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <!-- Import the task -->
-  <UsingTask AssemblyFile="$(AREBISROOT)\Arebis.CodeGeneration.MsBuild.dll" TaskName="ArebisGenTask"/>
+  <UsingTask AssemblyFile="$(MSBuildExtensionsPath)\Arebis Generation Tools\Arebis.CodeGeneration.MsBuild.dll" TaskName="ArebisGenTask"/>
 
   <!-- Re-define CoreCompileDependsOn to ensure the template files are processed before compilation. -->
   <PropertyGroup>
