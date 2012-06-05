@@ -1,0 +1,5 @@
+bin
+obj
+*.suo
+/Arebis.Installer/Debug
+/Arebis.Installer/Release
