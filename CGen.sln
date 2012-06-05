@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arebis.CodeGeneration.MsBui
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Arebis.Installer", "Arebis.Installer\Installer.vdproj", "{F0C25684-D92F-4C0F-9EE2-9CDB49D431F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D8C3B008-87E1-4948-8982-0CD67831BD3B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\nuget.exe = .nuget\nuget.exe
+		.nuget\nuget.targets = .nuget\nuget.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
