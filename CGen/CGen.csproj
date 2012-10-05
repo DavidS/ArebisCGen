@@ -13,7 +13,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Arebis.snk</AssemblyOriginatorKeyFile>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -80,6 +80,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="Arebis.snk" />
     <None Include="Resources\HelpText.txt" />
   </ItemGroup>

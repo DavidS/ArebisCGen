@@ -10,10 +10,11 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Arebis.CodeGeneration.MsBuild</RootNamespace>
     <AssemblyName>Arebis.CodeGeneration.MsBuild</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Arebis.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
