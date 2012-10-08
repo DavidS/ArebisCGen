@@ -10,11 +10,11 @@
     <projectUrl>http://www.codeproject.com/Articles/21162/Template-Based-Code-Generator</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>First packaging</releaseNotes>
+    <releaseNotes>Update to .net 4.0</releaseNotes>
     <copyright>Copyright 2007 Arebis</copyright>
   </metadata>
   <files>
-    <file src="bin\Release\Arebis.CodeGeneration.dll" target="lib\net35" />
-    <file src="bin\Release\Arebis.CodeGeneration.xml" target="lib\net35" />
+    <file src="bin\Release\Arebis.CodeGeneration.dll" target="lib\net40" />
+    <file src="bin\Release\Arebis.CodeGeneration.xml" target="lib\net40" />
   </files>
 </package>
